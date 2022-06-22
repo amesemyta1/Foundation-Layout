@@ -11,6 +11,10 @@
   display: none;
 }
 
+.header__button {
+  display: none;
+}
+
 .header__menu-button {
   width: 58px;
   border: none;
@@ -40,6 +44,7 @@
     height: 62px;
     margin: auto;
     display: flex;
+    background-color: #f3c6bd;
   }
 
   .top-section {
@@ -68,6 +73,14 @@
   .header__menu-button {
     display: none;
   }
+
+  .navigation__arrow {
+    display: inline-block;
+    margin-left: 11px;
+    height: 5px;
+    width: 8px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+  }
 }
 
 .navigation__item {
@@ -84,14 +97,6 @@
 
 .navigation__item:last-child {
   margin-right: 0;
-}
-
-.navigation__arrow {
-  display: inline-block;
-  margin-left: 11px;
-  height: 5px;
-  width: 8px;
-  background-image: url(Arrow.png);
 }
 
 .logo {
@@ -122,8 +127,4 @@
 
 .top-section {
   background-color: #f3c6bd;
-}
-
-.header__button {
-  display: none;
 }
