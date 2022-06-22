@@ -5,6 +5,7 @@
 html {
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
+  color: #2b292d;
 }
 
 .page {
@@ -13,4 +14,15 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.action-button {
+  background-color: #3040c4;
+  color: #fff;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
 }
