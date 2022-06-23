@@ -9,10 +9,16 @@
   border: none;
 }
 
-.hide-desktop {
-  @include for-large-up {
-    display: none;
-  }
+.learn-more-btn {
+  background-color: #fff;
+  color: #3040c4;
+  width: 158px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+  margin-top: 15px;
 }
 
 .hide-mobile {
