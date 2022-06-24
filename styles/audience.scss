@@ -72,6 +72,10 @@
     }
   }
 
+  &__learn-more-btn {
+    color: $text-color-black;
+  }
+
   &__button:last-of-type {
     @include for-large-down {
       margin-top: 12px;
@@ -111,9 +115,17 @@
     border-radius: 8px;
     margin: 0;
     margin-top: 15px;
-
     @include for-large-up {
       width: 262px;
+      margin-top: 0px;
+    }
+  }
+
+  &__card-img {
+    margin-top: 15px;
+
+    @include for-large-up {
+      margin-top: 22px;
     }
   }
 
@@ -124,6 +136,10 @@
     text-align: center;
     margin: 0;
     margin-top: 22px;
+
+    @include for-large-up {
+      margin-bottom: 33px;
+    }
   }
 
   &__card:hover &__card-title {
