@@ -136,10 +136,7 @@
     text-align: center;
     margin: 0;
     margin-top: 22px;
-
-    @include for-large-up {
-      margin-bottom: 33px;
-    }
+    margin-bottom: 33px;
   }
 
   &__card:hover &__card-title {

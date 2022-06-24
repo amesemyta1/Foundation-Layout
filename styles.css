@@ -329,11 +329,7 @@
   text-align: center;
   margin: 0;
   margin-top: 22px;
-}
-@media (min-width: 1400px) {
-  .audience__card-title {
-    margin-bottom: 33px;
-  }
+  margin-bottom: 33px;
 }
 .audience__card:hover .audience__card-title {
   color: #ffffff;
