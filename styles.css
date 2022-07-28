@@ -98,7 +98,6 @@
 .customers__item {
   height: 94px;
   width: 107px;
-  border-bottom: 1px solid #e3e3e3;
   border-right: 1px solid #e3e3e3;
   display: flex;
   justify-content: center;
@@ -940,6 +939,7 @@ html {
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
   color: #2b292d;
+  overflow-x: hidden;
 }
 
 .page {
