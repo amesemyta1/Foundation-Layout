@@ -404,7 +404,7 @@
   }
 }
 .order__email::placeholder {
-  color: #2b292d;
+  color: rgb(43, 41, 45);
 }
 .order__button {
   margin-top: 12px;
@@ -893,6 +893,11 @@
 .tip {
   padding: 40px 15px 0 15px;
   border-bottom: 1px solid #e3e3e3;
+}
+@media (min-width: 1400px) {
+  .tip {
+    border-bottom: none;
+  }
 }
 .tip__subtitle {
   font-weight: 700;
