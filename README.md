@@ -2,7 +2,7 @@
 
 ### [Site link](https://amesemyta1.github.io/startup_website/)
 
-Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
+Layout supports mobile (up-to-320) and desktop (up-to-1400) versions
 
 ### The tech stack is:
 
