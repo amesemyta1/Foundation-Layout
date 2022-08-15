@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Foundation Layout
 
 ### [Site link](https://amesemyta1.github.io/startup_website/)
 

@@ -33,6 +33,10 @@
     letter-spacing: -0.25px;
     margin-top: 40px;
     margin-bottom: 0;
+
+    @include for-large-up {
+      text-align: start;
+    }
   }
 
   &__text {
@@ -70,15 +74,14 @@
 
   &__button {
     margin-top: 12px;
-
-    @include for-large-down {
-      width: 100%;
-    }
+    flex-shrink: 1;
+    width: 100%;
 
     @include for-large-up {
       margin-top: 0;
       margin-left: 10px;
       flex-shrink: 0;
+      width: 160px;
     }
   }
 
