@@ -1,6 +1,6 @@
 # Foundation Layout
 
-### [Site link](https://amesemyta1.github.io/startup_website/)
+### [Site link](https://amesemyta1.github.io/Foundation-Layout/)
 
 Layout supports mobile (up-to-320) and desktop (up-to-1400) versions
 
