@@ -158,16 +158,43 @@
 }
 
 .social-links {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 23px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+
+  @include for-large-up {
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 16px;
+  }
 
   &__item {
     margin-right: 20px;
+    margin-top: 17px;
+    display: flex;
 
     @include for-large-up {
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 23px;
+      margin: 30px 10px 23px 10px;
+    }
+
+    &_twitter {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png');
+      height: 16px;
+      width: 21px;
+    }
+
+    &_facebook {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png');
+      height: 17px;
+      width: 18px;
+    }
+
+    &_linked-link {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png');
+      height: 17px;
+      width: 18px;
     }
   }
 }
@@ -203,10 +230,9 @@
 }
 
 @media (min-width: 400px) {
-  .social-links {
-    margin-left: auto;
-    margin-bottom: 23px;
-  }
+  // .social-links {
+  //   margin-right: auto;
+  // }
 
   .nav-links__title {
     margin: 0;
