@@ -618,17 +618,18 @@
     margin: 30px 10px 23px 10px;
   }
 }
-.social-links__item_twitter {
+
+.social-icon_twitter {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png");
   height: 16px;
   width: 21px;
 }
-.social-links__item_facebook {
+.social-icon_facebook {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png");
   height: 17px;
   width: 18px;
 }
-.social-links__item_linked-link {
+.social-icon_linked-link {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png");
   height: 17px;
   width: 18px;
